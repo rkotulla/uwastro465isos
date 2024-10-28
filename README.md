@@ -85,6 +85,8 @@ ax.plot(g_r, r)
 
 ax.set_xlim((-0.6, 1.7))
 ax.set_ylim((12,-8))
-
+ax.set_xlabel("g-r color index [mag]")
+ax.set_ylabel("absolute r-band magnitude [mag]")
 fig.show()
 ```
+![example color magnitude diagram](docs/figures/g_r__vs_r_example.png)
