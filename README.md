@@ -53,7 +53,6 @@ print(iso.get_list_of_magnitudes())
 
 Results:
 ```jupyter
-
 >>> print(iso.get_list_of_ages())
 [ 6.6   6.65  6.7   6.75  6.8   6.85  6.9   6.95  7.    7.05  7.1   7.15
   7.2   7.25  7.3   7.35  7.4   7.45  7.5   7.55  7.6   7.65  7.7   7.75
@@ -67,13 +66,11 @@ Results:
 
 >>> print(iso.get_list_of_magnitudes())
 ['mbolmag', 'umag', 'gmag', 'rmag', 'imag', 'zmag']
-
 ```
 
 ```python
 # To select an individual isochrone:
 one_iso = iso.select_isochrone(log_age=7.3, metallicity=-0.5)
-
 ```
 
 Finally we can make a plot
@@ -90,5 +87,4 @@ ax.set_xlim((-0.6, 1.7))
 ax.set_ylim((12,-8))
 
 fig.show()
-
 ```
